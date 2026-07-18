@@ -119,3 +119,37 @@ nav ul li a:hover{
     line-height:1.9;
     text-align:center;
 }
+#education{
+    padding:100px 0;
+}
+
+#education h2{
+    text-align:center;
+    color:#38bdf8;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.education-card{
+    max-width:700px;
+    margin:auto;
+    background:#1e293b;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+.education-card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.education-card h4{
+    margin-bottom:20px;
+    color:white;
+}
+
+.education-card p{
+    color:#d1d5db;
+    margin:8px 0;
+}
