@@ -311,3 +311,23 @@ nav ul li a:hover{
     line-height:1.8;
     color:#d1d5db;
 }
+#training,
+#achievements{
+    padding:100px 0;
+    background:#111827;
+}
+
+#training h2,
+#achievements h2{
+    text-align:center;
+    color:#38bdf8;
+    margin-bottom:40px;
+    font-size:38px;
+}
+
+.achievement-list{
+    max-width:800px;
+    margin:auto;
+    line-height:2;
+    color:#d1d5db;
+}
