@@ -423,3 +423,74 @@ nav ul li a.active{
     color:#0f172a;
 
 }
+/* Scroll Animation */
+
+section{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:all .8s ease;
+
+}
+
+section.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Active Nav */
+
+nav ul li a.active{
+
+    color:#38bdf8;
+
+}
+
+/* Back To Top Button */
+
+#topBtn{
+
+    position:fixed;
+
+    bottom:30px;
+
+    right:30px;
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#38bdf8;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    display:none;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+
+    transition:.3s;
+
+}
+
+#topBtn:hover{
+
+    transform:translateY(-5px);
+
+    background:white;
+
+    color:#0f172a;
+
+}
