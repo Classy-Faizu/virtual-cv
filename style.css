@@ -331,3 +331,24 @@ nav ul li a:hover{
     line-height:2;
     color:#d1d5db;
 }
+#contact{
+    padding:100px 0;
+    text-align:center;
+}
+
+#contact h2{
+    color:#38bdf8;
+    margin-bottom:30px;
+    font-size:38px;
+}
+
+#contact p{
+    margin:15px 0;
+    color:#d1d5db;
+}
+
+#contact a{
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:600;
+}
