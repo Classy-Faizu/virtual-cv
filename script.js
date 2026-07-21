@@ -85,3 +85,59 @@ const observer = new IntersectionObserver(entries=>{
 });
 
 sections.forEach(section=>observer.observe(section));
+particlesJS("particles-js", {
+
+    particles: {
+
+        number: {
+            value: 60
+        },
+
+        color: {
+            value: "#38bdf8"
+        },
+
+        shape: {
+            type: "circle"
+        },
+
+        opacity: {
+            value: 0.5
+        },
+
+        size: {
+            value: 3
+        },
+
+        line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#38bdf8",
+            opacity: 0.3,
+            width: 1
+        },
+
+        move: {
+            enable: true,
+            speed: 2
+        }
+
+    },
+
+    interactivity: {
+
+        events: {
+
+            onhover: {
+
+                enable: true,
+
+                mode: "grab"
+
+            }
+
+        }
+
+    }
+
+});
