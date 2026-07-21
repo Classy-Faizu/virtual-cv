@@ -830,3 +830,48 @@ section.show{
     z-index:1;
 
 }
+/* =========================
+   Back To Top Button
+========================= */
+
+#topBtn{
+
+    position:fixed;
+
+    bottom:30px;
+
+    right:30px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    display:none;
+
+    z-index:999;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+#topBtn:hover{
+
+    transform:translateY(-5px);
+
+    background:white;
+
+}
