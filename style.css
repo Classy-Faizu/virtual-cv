@@ -852,3 +852,32 @@ Back To Top Button
     visibility:visible;
 
 }
+/*=========================
+Particles Background
+=========================*/
+
+#particles-js{
+
+    position:fixed;
+
+    width:100%;
+
+    height:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:-1;
+
+    background:#0f172a;
+
+}
+
+body{
+
+    background:#0f172a;
+
+    overflow-x:hidden;
+
+}
